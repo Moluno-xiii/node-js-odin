@@ -1,0 +1,11 @@
+<nav>
+  <ul>
+    <% links.map((link) => { %>
+    <li>
+      <a href="<%=link.href%>">
+        <span><%=link.text%></span>
+      </a>
+    </li>
+    <% }); %>
+  </ul>
+</nav>

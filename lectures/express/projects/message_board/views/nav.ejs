@@ -1,0 +1,11 @@
+<html lang="en">
+  <body>
+    <div>
+      <% links.forEach((link) => {%>
+      <button>
+        <a href="<%= link.link %>"> <%= link.name %></a>
+      </button>
+      <%})%>
+    </div>
+  </body>
+</html>
