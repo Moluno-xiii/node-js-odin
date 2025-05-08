@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form action="/create" method="post">
+      <div>
+        <label for="firstName"> First name : </label>
+        <input required type="text" name="firstName" />
+      </div>
+      <div>
+        <label for="lastName"> Last name : </label>
+        <input required type="text" name="lastName" />
+      </div>
+      <div>
+        <label for="email"> Email : </label>
+        <input required type="text" name="email" />
+      </div>
+      <div>
+        <label for="age"> Age : </label>
+        <input type="number" name="age" />
+      </div>
+      <div>
+        <label for="bio"> Bio : </label>
+        <input type="text" name="bio" />
+      </div>
+      <button type="submit">submit</button>
+      <%- include('partials/error') %>
+    </form>
+  </body>
+</html>
