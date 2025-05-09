@@ -1,3 +1,5 @@
 /lectures/express/intro/node_modules
 /lectures/express/views_lecture/node_modules
 /lectures/express/form_handling/node_modules
+/lectures/express/postgres/node_modules
+/lectures/express/postgres/.env
